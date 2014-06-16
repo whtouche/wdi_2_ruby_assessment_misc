@@ -55,7 +55,7 @@ end
 class Robot
   class ImmobileError < StandardError; end
 
-  def initialize(legs:, wheels:)
+  def initialize(legs: 0, wheels: 0)
     @legs, @wheels = legs, wheels
   end
 
